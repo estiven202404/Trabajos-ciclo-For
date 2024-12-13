@@ -1,0 +1,9 @@
+# 13. Verificar si un número es palíndromo
+numero = 12321  # Ejemplo
+num_str = str(numero)
+es_palindromo = True
+for i in range(len(num_str) // 2):
+    if num_str[i] != num_str[-(i + 1)]:
+        es_palindromo = False
+        break
+print(f"¿Es palíndromo? {es_palindromo}")

@@ -1,0 +1,10 @@
+# 20. Promedio ponderado
+calificaciones = [90, 80, 70]  # Ejemplo
+pesos = [0.5, 0.3, 0.2]
+suma_ponderada = 0
+suma_pesos = 0
+for i in range(len(calificaciones)):
+    suma_ponderada += calificaciones[i] * pesos[i]
+    suma_pesos += pesos[i]
+promedio_ponderado = suma_ponderada / suma_pesos
+print("Promedio ponderado:", promedio_ponderado)

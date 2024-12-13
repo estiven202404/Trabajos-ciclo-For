@@ -1,0 +1,6 @@
+# 4. Suma de los dígitos de un número
+numero = 1234  # Ejemplo
+suma_digitos = 0
+for digito in str(numero):  
+    suma_digitos += int(digito)
+print("Suma de los dígitos:", suma_digitos)

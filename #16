@@ -1,0 +1,8 @@
+# 16. Suma de una serie geométrica
+a, r, n = 1, 2, 4  # Ejemplo: primer término 1, razón 2, 4 términos
+suma = 0
+termino = a
+for _ in range(n):
+    suma += termino
+    termino *= r
+print("Suma de la serie geométrica:", suma)

@@ -1,0 +1,9 @@
+# 8. Media de una lista de números
+numeros = [10, 20, 30, 40]  # Ejemplo
+suma = 0
+contador = 0
+for num in numeros:
+    suma += num
+    contador += 1
+media = suma / contador
+print("Media:", media)

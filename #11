@@ -1,0 +1,6 @@
+# 11. Invertir un número
+numero = 12345  # Ejemplo
+invertido = ""
+for digito in str(numero):
+    invertido = digito + invertido
+print("Número invertido:", invertido)

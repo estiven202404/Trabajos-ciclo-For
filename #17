@@ -1,0 +1,8 @@
+# 17. Cantidad de vocales en una cadena
+cadena = "Hola Mundo"  # Ejemplo
+vocales = "aeiouAEIOU"
+contador = 0
+for c in cadena:
+    if c in vocales:
+        contador += 1
+print("Cantidad de vocales:", contador)

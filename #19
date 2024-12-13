@@ -1,0 +1,7 @@
+# 19. Suma de los dígitos de un número con ciclos
+numero = 456  # Ejemplo
+suma = 0
+while numero > 0:
+    suma += numero % 10
+    numero //= 10
+print("Suma de los dígitos:", suma)

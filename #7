@@ -1,0 +1,7 @@
+# 7. Potencia de un número
+base = 2
+exponente = 8
+resultado = 1
+for _ in range(exponente):
+    resultado *= base
+print(f"{base} elevado a {exponente} = {resultado}")

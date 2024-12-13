@@ -1,0 +1,7 @@
+# 14. Mínimo común múltiplo (LCM)
+a, b = 12, 15  # Ejemplo
+mcd = a
+while b != 0:
+    mcd, b = b, mcd % b
+mcm = abs(a * b) // mcd
+print("Minimo comun multiplo:", mcm)
